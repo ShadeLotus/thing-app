@@ -20,7 +20,7 @@ angular.module('main', [
     })
     .state('thing-details', {
       url: '/thing/details',
-      templateUrl: 'main/templates/thing-detail.html',
+      templateUrl: 'main/templates/thing-details.html',
       controller: 'ThingDetailCtrl as ctrl'
     })
     .state('login', {
